@@ -10,5 +10,5 @@ def reverse_captcha(string):
     return sum(sum_digits)
 
 if __name__ == "__main__":
-    puzzle_input = get_input('day01')
+    puzzle_input = get_input('day01')[0]
     print(reverse_captcha(puzzle_input))
